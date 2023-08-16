@@ -1,3 +1,4 @@
+using UnityEngine;
 using UnityEngine.XR;
 
 public class XRSettingsManager : MonoBehaviour

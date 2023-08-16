@@ -7,32 +7,32 @@
 
 ### Player Manager
 - **Status**: Implemented
-- **File Path**: `./99-backpacks/player_manager.js`
+- **File Path**: `./99-backpacks/player_manager/player_manager.cs`
 - **Summary**: Manages player attributes, leveling up, and experience.
 
 ### Inventory Manager
 - **Status**: Implemented
-- **File Path**: `./99-backpacks/inventory_manager.js`
+- **File Path**: `./99-backpacks/inventory_system/inventory_manager.cs`
 - **Summary**: Manages player inventory, including adding and removing items, and handling ammo.
 
 ### Loot Manager
 - **Status**: Implemented
-- **File Path**: `./99-backpacks/loot_manager.js`
+- **File Path**: `./99-backpacks/loot_manager/loot_manager.cs`
 - **Summary**: Manages loot generation and drop mechanics, including ammo items.
 
 ### Unity Integration
 - **Status**: Implemented
-- **File Path**: `./99-backpacks/unity_integration.js`
+- **File Path**: `./99-backpacks/unity-integration/Unity3D_Setup/unity_integration.cs`
 - **Summary**: Provides methods for integrating with Unity, including creating and retrieving prefabs, and saving and loading player data.
 
 ### Enemies Manager
 - **Status**: Implemented
-- **File Path**: `./99-backpacks/enemies_manager.js`
+- **File Path**: `./99-backpacks/enemies_manager/enemy_manager.cs`
 - **Summary**: Manages enemy attributes, behaviors, and interactions.
 
 ### Prefab Factory
 - **Status**: Implemented
-- **File Path**: `./99-backpacks/prefab_factory.js`
+- **File Path**: `./99-backpacks/prefab_factory/prefab_factory.cs`
 - **Summary**: Includes implementation for creating and instantiating templates, including support for custom prefabs.
 
 ### Unity3D Player Interaction Script

@@ -8,10 +8,10 @@ The Prefab Factory is responsible for creating and managing game prefabs. You ca
 
 ### Usage
 
-```javascript
-const prefabFactory = new PrefabFactory();
-prefabFactory.createPrefab('sword', { damage: 10, rarity: 'common' });
-const swordPrefab = prefabFactory.getPrefab('sword');
+```csharp
+PrefabFactory prefabFactory = new PrefabFactory();
+prefabFactory.CreatePrefab('sword', new { damage = 10, rarity = 'common' });
+GameObject swordPrefab = prefabFactory.GetPrefab('sword');
 ```
 
 ## Save System
@@ -20,10 +20,10 @@ The Save System handles saving and loading player attributes and inventory.
 
 ### Usage
 
-```javascript
-const saveSystem = new SaveSystem('./saves');
-saveSystem.savePlayer('player1', { health: 100, level: 1, inventory: ['sword'] });
-const playerData = saveSystem.loadPlayer('player1');
+```csharp
+SaveSystem saveSystem = new SaveSystem('./saves');
+saveSystem.SavePlayer('player1', new { health = 100, level = 1, inventory = new string[] { 'sword' } });
+object playerData = saveSystem.LoadPlayer('player1');
 ```
 
 ## Unity Integration
@@ -32,11 +32,11 @@ The Unity Integration script serves as a bridge between the core components and 
 
 ### Usage
 
-```javascript
-const unityIntegration = new UnityIntegration();
-unityIntegration.createPrefab('sword', { damage: 10, rarity: 'common' });
-unityIntegration.savePlayer('player1', { health: 100, level: 1, inventory: ['sword'] });
-const playerData = unityIntegration.loadPlayer('player1');
+```csharp
+UnityIntegration unityIntegration = new UnityIntegration();
+unityIntegration.CreatePrefab('sword', new { damage = 10, rarity = 'common' });
+unityIntegration.SavePlayer('player1', new { health = 100, level = 1, inventory = new string[] { 'sword' } });
+object playerData = unityIntegration.LoadPlayer('player1');
 ```
 
 ## VR Support

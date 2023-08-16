@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class GameManagerGen : MonoBehaviour
 {
     public Transform levelEntrance;
     public Transform[] enemySpawnZones;

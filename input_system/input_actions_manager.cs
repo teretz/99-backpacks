@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.XR;
+using UnityEngine.XR.Interaction.Toolkit; // Add this line
 
 public class InputActionsManager : MonoBehaviour
 {
@@ -20,7 +21,7 @@ public class InputActionsManager : MonoBehaviour
         {
             grabbable.BeginInteraction(controller);
         }
-        else
+        else
         {
             grabbable.EndInteraction(controller);
         }
