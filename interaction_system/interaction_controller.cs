@@ -5,15 +5,15 @@ public class InteractionController : XRBaseInteractable
 {
     public GameObject highlightEffect;
 
-    protected override void OnSelectEnter(XRBaseInteractor interactor)
+    protected override void OnSelectEntering(XRBaseInteractor interactor)
     {
-        base.OnSelectEnter(interactor);
+        base.OnSelectEntering(interactor);
         highlightEffect.SetActive(true); // Example: Enable highlight effect when object is selected
     }
 
-    protected override void OnSelectExit(XRBaseInteractor interactor)
+    protected override void OnSelectExiting(XRBaseInteractor interactor)
     {
-        base.OnSelectExit(interactor);
+        base.OnSelectExiting(interactor);
         highlightEffect.SetActive(false); // Example: Disable highlight effect when object is deselected
     }
 }

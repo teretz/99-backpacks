@@ -5,7 +5,7 @@ public class UnityIntegration : MonoBehaviour
     // Prefab Factory for creating and managing prefabs
     private PrefabFactory prefabFactory;
     // Save System for handling saving and loading player data
-    private SaveSystem saveSystem; // Assuming SaveSystem is part of the current project
+    private SaveManager saveSystem; // Assuming SaveSystem is part of the current project
 
     private void Start()
     {
