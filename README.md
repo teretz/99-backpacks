@@ -4,8 +4,8 @@ This README file serves as a central hub for tracking the progress of the projec
 
 ## Documents
 
-- `progress_report.md`: Status - Pending Verification
-- `unity_integration_guide.md`: Status - Pending Verification
+- `progress_report.md`: Status - Verified
+- `unity_integration_guide.md`: Status - Verified
 
 ## Code Verification
 
@@ -16,6 +16,8 @@ This README file serves as a central hub for tracking the progress of the projec
 - `unity_integration.cs`: Status - Verified (Implemented)
 - `enemy_manager.cs`: Status - Verified (Implemented)
 - `prefab_factory.cs`: Status - Verified (No placeholders, TODOs, or pseudocode found)
+- `pistol.cs`: Status - Verified (Implemented)
+- `rocket_launcher.cs`: Status - Verified (Missing Implementation)
 
 ## Notes
 
