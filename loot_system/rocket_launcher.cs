@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
-using OVRInput = Oculus.XR.Input.OVRInput;
+using OVRInput = UnityEngine.XR.Oculus.OVRManager.OVRInput;
 
 public class RocketLauncher : XRGrabInteractable
 {
