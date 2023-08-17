@@ -5,7 +5,7 @@ public class InteractionController : XRBaseInteractable
 {
     public GameObject highlightEffect;
 
-    protected override void OnSelectEntering(XRBaseInteractor interactor)
+    protected override void OnSelectEnteringing(XRBaseInteractor interactor)
     {
         base.OnSelectEntering(interactor);
         highlightEffect.SetActive(true); // Example: Enable highlight effect when object is selected
