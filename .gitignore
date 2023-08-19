@@ -1,4 +1,7 @@
 
 *.meta
+<<<<<<< HEAD
 
 node_modules/
+=======
+>>>>>>> main
